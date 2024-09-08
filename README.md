@@ -1,1 +1,1 @@
-# https://maindenis.github.io/mwbu/index.html
+# https://maindenis.github.io/mebu/index.html
