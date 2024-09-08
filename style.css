@@ -4,7 +4,7 @@
 /*-- Fonts --*/
 /*------------------*/
 
-@font-face {
+/*@font-face {
     font-family: 'FONTSPRING DEMO - Proxima Nova Cond';
     src: url('FONTSPRINGDEMO-ProximaNovaCondSemiboldRegular.eot');
     src: url('FONTSPRINGDEMO-ProximaNovaCondSemiboldRegular.eot?#iefix') format('embedded-opentype'),
@@ -13,6 +13,14 @@
         url('FONTSPRINGDEMO-ProximaNovaCondSemiboldRegular.ttf') format('truetype'),
         url('FONTSPRINGDEMO-ProximaNovaCondSemiboldRegular.svg#FONTSPRINGDEMO-ProximaNovaCondSemiboldRegular') format('svg');
     font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}*/
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('ProximaNova-Bold.woff') format('woff');
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
@@ -93,11 +101,11 @@ html {
 }
 
 .menu_thumb p {
-    line-height: 130%;
-    font-family: 'FONTSPRING DEMO - Proxima Nova Cond';
-    font-weight: 600;
+    font-family: 'ProximaNova';
+    font-weight: 800;
     font-style: normal;
     font-size: 16px;
+    line-height: 130%;
     color: #000;
 }
 
